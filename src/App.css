@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background: #f55a5a;
+  color: white;
+  font-family: 'Inter', sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+  font-size: 1rem;
+  margin: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.globe {
+  height: 2em;
+}
+
+.travelImg {
+  height: 300px;
+  width: 220px;
+  object-fit: cover;
+  border-radius: .5em;
+  margin: 0 2em 0 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.maplink {
+  margin: .5em;
+  color: #918E9B;
+}
+
+.country {
+  letter-spacing: .2em;
+}
+
+.pin {
+  height: 1em;
+  margin: 0 .5em 0 0;
+}
+
+.locationName {
+  font-size: 2rem;
+  margin: 0 0 .8em 0;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.description {
+  line-height: 150%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  max-width: 700px;
+  margin: 3em auto 0 auto;
+}
+
+main {
+  padding-bottom: 4em;
 }
